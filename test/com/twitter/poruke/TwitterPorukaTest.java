@@ -17,6 +17,7 @@ public class TwitterPorukaTest {
 
 	@After
 	public void tearDown() throws Exception {
+		tweet = null;
 	}
 
 	@Test

@@ -35,7 +35,7 @@ public class TwitterPoruka {
 	 * 		<li> parametar ne sme biti prazan string.</li>
 	 * 		</ul>
 	 * 
-	 * @param korisnik
+	 * @param odredjeni korisnik
 	 * 
 	 */
 	public void setKorisnik(String korisnik) { 
@@ -61,7 +61,7 @@ public class TwitterPoruka {
 	 * 			<li> duzina unete poruke ne sme biti duzi od 140 karaktera.</li>
 	 * 		</ul>
 	 * 
-	 * @param poruka
+	 * @param uneta poruka 
 	 * 
 	 */
 	public void setPoruka(String poruka) { 

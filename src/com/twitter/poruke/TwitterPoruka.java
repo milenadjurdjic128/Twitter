@@ -36,6 +36,7 @@ public class TwitterPoruka {
 	 * 		</ul>
 	 * 
 	 * @param odredjeni korisnik
+	 * @throws RuntimeException kada je uneta vrednost null ili prazan string
 	 * 
 	 */
 	public void setKorisnik(String korisnik) { 
@@ -62,6 +63,7 @@ public class TwitterPoruka {
 	 * 		</ul>
 	 * 
 	 * @param uneta poruka 
+	 * @throws RuntimeException kada je poruka null ili ima vise od 140 karaktera
 	 * 
 	 */
 	public void setPoruka(String poruka) { 

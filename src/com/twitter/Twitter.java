@@ -49,6 +49,7 @@ package com.twitter;
 		 * @param maxBroj je maksimalan broj poruka koje je moguce prikazati odjednom
 		 * @param tag predstavlja vrednost na osnovu koje pretrazujemo poruke, sve one koje sadrze taj tag
 		 * @return lista poruka koje sadrze odredjeni tag
+		 * @throws RuntimeException kada je tag null ili je prazan
 		 */
 		public TwitterPoruka[] vratiPoruke(int maxBroj, String tag) { 
 			 if (tag==null || tag.isEmpty())

@@ -137,12 +137,7 @@ public class TwitterTest {
 	public void testVratiPorukeTagJePrazan() {
 		tviter.vratiPoruke(10, "");
 	}
-	
-	@Test 
-	public void testVratiPorukeMaxBrojManjiOdNule() {
-		
-		tviter.vratiPoruke(-10, "nesto");
-	}
+
 	
 
 }
